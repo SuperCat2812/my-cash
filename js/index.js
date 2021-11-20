@@ -1,6 +1,6 @@
 let n1 = document.getElementById("n1");
-
-let b=document.getElementById("b")
+let p = document.getElementById("p");
+let b = document.getElementById("b");
 b.onclick=function() {
   let premia = 0.15;
   let premiap = +n1.value* premia;
@@ -12,7 +12,7 @@ b.onclick=function() {
   let prochend = ost / 2;
   
  
-  console.log("Остаток денег у пользователя"+prochend);
+  p.textContent="Остаток денег у пользователя"+prochend;
 }
 
 let v = 6;
